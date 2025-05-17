@@ -3,7 +3,7 @@ import React, { ReactNode } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 interface DashboardLayoutProps {
-  children: ReactNode;
+  children?: ReactNode;
   title: string;
   tabs?: { id: string; label: string; content: ReactNode }[];
   showTabs?: boolean;
